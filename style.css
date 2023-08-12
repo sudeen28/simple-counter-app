@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(249, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  main{
+    background-color: aquamarine;
+    height: auto;
+    padding: 100px;
+    box-shadow: 5px 5px 10px black;
+    justify-self: center;
+    align-items: center;
+    outline: 2px solid;
+    outline-offset:15px;
+    outline-color: rgb(89, 88, 88);
+  }
+  main h1{
+    font-family: cursive;
+    text-shadow: 5px 5px 10px ;
+    font-size: 20px;
+    text-align: center;
+  }
+  .card p, .card{
+    text-align: center;
+  }
+  .btn{
+    margin-top: 10px;
+  }
+  .btn button{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: antiquewhite;
+  }
+  .btn button:hover{
+    border-radius: 5px;
+    outline: 1px solid;
+    outline-offset: 3px;
+    border: 1px solid transparent;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 10px;
+  }
+  span{
+    font-size: 50px;
+    font-family: cursive, serif;
+    text-shadow: 2px 2px 2px gray;
+  }
