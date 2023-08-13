@@ -6,7 +6,10 @@ body {
     height: 100vh;
     overflow: hidden;
   }
-  
+html{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;;
+}
   main{
     background-color: aquamarine;
     height: auto;
@@ -19,7 +22,7 @@ body {
     outline-color: rgb(89, 88, 88);
   }
   main h1{
-    font-family: cursive;
+    /* font-family: cursive; */
     text-shadow: 5px 5px 10px ;
     font-size: 20px;
     text-align: center;
@@ -46,6 +49,6 @@ body {
   }
   span{
     font-size: 50px;
-    font-family: cursive, serif;
+    /* font-family: cursive, serif; */
     text-shadow: 2px 2px 2px gray;
   }
